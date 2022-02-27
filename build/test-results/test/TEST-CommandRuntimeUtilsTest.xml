@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CommandRuntimeUtilsTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-02-27T17:05:07" hostname="workspace" time="0.038">
+  <properties/>
+  <testcase name="printCommandRuntTimeReturnsFormattedStringOfTheCurrentTimeAndCommandWhenBothInputsAreWildCards()" classname="CommandRuntimeUtilsTest" time="0.027"/>
+  <testcase name="printCommandRuntTimeReturnsFormattedStringOfTheNextHourTomorrowAndGivenMinutesAndCommandWhenGivenHourIsWildCardAndCurrentMinutesAreGreaterThanGivenMinutes()" classname="CommandRuntimeUtilsTest" time="0.002"/>
+  <testcase name="printCommandRuntTimeReturnsFormattedStringOfTheGivenHourAnd00MinutesTomorrowAndCommandWhenGivenMinutesIsWildCardAndCurrentHourIsGreaterThanGivenHour()" classname="CommandRuntimeUtilsTest" time="0.001"/>
+  <testcase name="printCommandRuntTimeReturnsFormattedStringOfTheGivenHourAnd00MinutesTodayAndCommandWhenGivenMinutesIsWildCardAndCurrentHourIsLessThanGivenHour()" classname="CommandRuntimeUtilsTest" time="0.001"/>
+  <testcase name="printCommandRuntTimeReturnsFormattedStringOfTheGivenHourAndMinutesTomorrowAndCommandWhenCurrentTimeHasPassedGivenTime()" classname="CommandRuntimeUtilsTest" time="0.001"/>
+  <testcase name="printCommandRuntTimeReturnsFormattedStringOfTheGivenHourAndMinutesTodayAndCommandWhenCurrentTimeHasNotPassedGivenTime()" classname="CommandRuntimeUtilsTest" time="0.0"/>
+  <testcase name="printCommandRuntTimeReturnsFormattedStringOfTheCurrentHourAndGivenMinutesAndCommandWhenGivenHourIsWildCardAndCurrentMinutesAreLessThanGivenMinutes()" classname="CommandRuntimeUtilsTest" time="0.001"/>
+  <testcase name="printCommandRuntTimeReturnsFormattedStringOfTheNextHourAndGivenMinutesAndCommandWhenGivenHourIsWildCardAndCurrentMinutesAreGreaterThanGivenMinutes()" classname="CommandRuntimeUtilsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
